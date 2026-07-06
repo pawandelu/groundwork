@@ -1,15 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Gallery from "./components/home/Gallery";
-import Hero from "./components/home/Hero";
-import Swiper from "./components/home/Swiper";
+import Home from "./components/view/Home";
 
 function App() {
   return (
-    <>
-      <Hero />
-      <Swiper />
-      <Gallery />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

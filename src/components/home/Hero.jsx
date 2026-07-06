@@ -22,16 +22,85 @@ const Hero = () => {
           src="/assets/image/webp/success.webp"
           alt=""
         />
-        <img
-          className=" absolute lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 top-49 w-50 sm:h-80 h-70 max-sm:hidden "
-          src="/assets/image/webp/hero-1.webp"
-          alt=""
-        />
-        <img
-          className=" absolute lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 lg:top-62 md:top-65 sm:top-70 w-50 sm:h-80 h-70 lg:left-[388.67px] md:left-85 sm:left-70 max-sm:hidden "
-          src="/assets/image/webp/hero-2.webp"
-          alt=""
-        />
+        {/* img  */}
+        <div className="group rounded-md lg:pt-50.75  pt-31 absolute bg-[url('/assets/image/webp/hero-1.webp')] p-8 bg-cover bg-center lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 top-49 w-50 sm:h-80 h-70 max-sm:hidden">
+          <div className="opacity-0 translate-y-5 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            <Heading
+              heading={"Excavation for Residential Home"}
+              vari={"Secondary"}
+            />
+            <p className="font-medium lg:text-[16px] md:text-[14px] sm:text-[12px] text-[10px] leading-[119%] mt-3 text-white">
+              For this project, we ensured a precise & safe excavation in a
+              built-up area. Thanks to our efficient ...
+            </p>
+            <button className="group lg:py-3 lg:px-5 md:py-2 md:px-4  rounded-md bg-orange hover:text-orange hover:bg-white transition-all duration-300 mt-6 lg:text-[18px] md:text-[16px] font-semibold text-white flex gap-2 items-center cursor-pointer">
+              Explore
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="transition-all duration-300"
+              >
+                <path
+                  d="M3.2002 14.6L12.8002 5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M12.8002 10.6V5H7.2002"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        {/* img2 */}
+        <div className="group rounded-md lg:pt-50.75  pt-31 bg-[url('/assets/image/webp/hero-2.webp')] p-8 bg-cover bg-center absolute lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 lg:top-62 md:top-65 sm:top-70 w-50 sm:h-80 h-70 lg:left-[388.67px] md:left-85 sm:left-70 max-sm:hidden ">
+          <div className="opacity-0 translate-y-5 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            <Heading
+              heading={"Excavation for Residential Home"}
+              vari={"Secondary"}
+            />
+            <p className="font-medium lg:text-[16px] md:text-[14px] sm:text-[12px] text-[10px] leading-[119%] mt-3 text-white">
+              For this project, we ensured a precise & safe excavation in a
+              built-up area. Thanks to our efficient ...
+            </p>
+            <button className="group lg:px-5 md:py-2 md:px-4 rounded-md bg-orange hover:text-orange hover:bg-white transition-all duration-300 mt-6 text-[18px] font-semibold text-white flex gap-2 items-center cursor-pointer">
+              Explore
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="transition-all duration-300"
+              >
+                <path
+                  d="M3.2002 14.6L12.8002 5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M12.8002 10.6V5H7.2002"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
