@@ -3,5 +3,7 @@
 @theme {
   --color-orange: #E58E1A;
   --color-dark-black: #0E0E0E;
-  --color-light-gray:#B7B7B7;
+  --color-light-gray: #B7B7B7;
+  --color-nav-bg: #0E0E0E4D;
+  --color-dark-black: #0E0E0E;
 }

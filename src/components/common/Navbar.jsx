@@ -12,7 +12,7 @@ const Navbar = () => {
     document.body.style.overflow = nav ? "hidden" : "auto";
   }, [nav]);
   return (
-    <header className="px-3 lg:py-[40.5px] md:py-8 sm:py-7 py-6 bg-light-gray sticky top-0 z-50 ">
+    <header className="px-3 lg:py-[40.5px] md:py-8 sm:py-7 py-4 bg-nav-bg  ">
       <nav className="max-w-285 w-full mx-auto flex flex-row items-center justify-between">
         <img
           src="/assets/image/webp/logo-black.webp"
