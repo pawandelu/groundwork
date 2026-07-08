@@ -17,12 +17,12 @@ const Earthworks = () => {
                   Building Foundations, Moving Futures.
                 </p>
 
-                <button className="mt-6 flex flex-row gap-3  rounded-md group hover:bg-white hover:text-orange px-5 py-3 text-[18px] leading-[100%] font-semibold bg-orange text-white cursor-pointer">
+                <button className="bg-orange text-white group hover:text-orange hover:bg-white   transition-all duration-300 mt-6 flex flex-row gap-3  rounded-md group  px-5 py-3 text-[18px] leading-[122%] font-semibold cursor-pointer">
                   Explore Groundwork
                   <Icon
                     icon={"toparrow"}
                     className={
-                      "sm:w-4 sm:h-4 w-3 h-3 text-white group-hover:text-orange transition-colors"
+                      "sm:w-4 sm:h-4 w-3 h-3 group-hover:text-current "
                     }
                   />
                 </button>
@@ -40,12 +40,12 @@ const Earthworks = () => {
                   Building Foundations, Moving Futures.
                 </p>
 
-                <button className="mt-6 flex flex-row gap-3  rounded-md group hover:bg-white hover:text-orange px-5 py-3 text-[18px] leading-[100%] font-semibold bg-orange text-white cursor-pointer">
+                <button className="bg-orange text-white group hover:text-orange hover:bg-white transition-all duration-300 mt-6 flex flex-row gap-3  rounded-md group px-5 py-3 text-[18px] leading-[122%] font-semibold cursor-pointer">
                   Explore Groundwork
                   <Icon
                     icon={"toparrow"}
                     className={
-                      "sm:w-4 sm:h-4 w-3 h-3 text-white group-hover:text-orange transition-colors"
+                      "sm:w-4 sm:h-4 w-3 h-3 group-hover:text-current "
                     }
                   />
                 </button>
@@ -64,12 +64,12 @@ const Earthworks = () => {
                 <p className="text-white text-15 leading-5.5 mt-3 font-normal">
                   Building Foundations, Moving Futures.
                 </p>
-                <button className="mt-6 flex flex-row gap-3 max-w-max  rounded-md group hover:bg-white hover:text-orange px-5 py-3 text-[18px] leading-[100%] font-semibold bg-orange text-white cursor-pointer">
+                <button className="bg-orange text-white group hover:text-orange hover:bg-white transition-all duration-300  mt-6 flex flex-row gap-3 max-w-max  rounded-md group  px-5 py-3 text-[18px] leading-[100%] font-semibold cursor-pointer">
                   Explore Groundwork
                   <Icon
                     icon={"toparrow"}
                     className={
-                      "sm:w-4 sm:h-4 w-3 h-3 text-white group-hover:text-orange transition-colors"
+                      "sm:w-4 sm:h-4 w-3 h-3 group-hover:text-current"
                     }
                   />
                 </button>
@@ -85,12 +85,12 @@ const Earthworks = () => {
                 <p className="text-white text-15 leading-5.5 mt-3 font-normal">
                   Building Foundations, Moving Futures.
                 </p>
-                <button className="mt-6 flex flex-row gap-3 max-w-max  rounded-md group hover:bg-white hover:text-orange px-5 py-3 text-[18px] leading-[100%] font-semibold bg-orange text-white cursor-pointer">
+                <button className="bg-orange text-white group hover:text-orange hover:bg-white transition-all duration-300  mt-6 flex flex-row gap-3 max-w-max  rounded-md group  px-5 py-3 text-[18px] leading-[100%] font-semibold cursor-pointer">
                   Explore Groundwork
                   <Icon
                     icon={"toparrow"}
                     className={
-                      "sm:w-4 sm:h-4 w-3 h-3  text-white group-hover:text-orange transition-colors"
+                      "sm:w-4 sm:h-4 w-3 h-3 group-hover:text-current"
                     }
                   />
                 </button>

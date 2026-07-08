@@ -14,12 +14,12 @@ const Head = () => {
           <p className="font-normal lg:text-[28px] md:text-2xl text-[18px]   text-white leading-[121%] mt-4">
             Your Trusted Partner in Earthworks and Excavations
           </p>
-          <button className="md:px-6 md:py-4 sm:px-4  sm:py-2 px-3 py-1 group leading-[123%] bg-orange md:text-[18px] sm:text-[16px] text-[14px] hover:text-orange hover:bg-white cursor-pointer duration-300 transition-all font-semibold text-white flex flex-row sm:gap-4 gap-1.5 items-center rounded-md mt-6 ">
+          <button className="md:px-6 group bg-orange text-white hover:bg-white hover:text-orange md:py-4 sm:px-4  sm:py-2 px-3 py-1 leading-[123%]  md:text-[18px] sm:text-[16px] text-[14px]  cursor-pointer duration-300 transition-all font-semibold  flex flex-row sm:gap-4 gap-1.5 items-center rounded-md mt-6 ">
             Explore Groundwerken
             <Icon
               icon={"brightarrow"}
               className={
-                "sm:w-4 sm:h-4 w-3 h-3  text-white group-hover:text-orange transition-colors"
+                "sm:w-4 sm:h-4 w-3 h-3 group-hover:text-current"
               }
             />
           </button>

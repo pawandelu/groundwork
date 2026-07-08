@@ -1,5 +1,6 @@
 import React from "react";
 import Heading from "../common/Heading";
+import Icon from "../common/Icon";
 
 const Hero = () => {
   return (
@@ -33,31 +34,9 @@ const Hero = () => {
               For this project, we ensured a precise & safe excavation in a
               built-up area. Thanks to our efficient ...
             </p>
-            <button className="group lg:py-3 lg:px-5 md:py-2 md:px-4  rounded-md bg-orange hover:text-orange hover:bg-white transition-all duration-300 mt-6 lg:text-[18px] md:text-[16px] font-semibold text-white flex gap-2 items-center cursor-pointer">
+            <button className="group lg:px-5 md:py-2 md:px-4 rounded-md bg-orange hover:text-orange leading-[150%] hover:bg-white transition-all duration-300 mt-6 text-[18px] font-semibold text-white flex gap-2 items-center cursor-pointer">
               Explore
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="transition-all duration-300"
-              >
-                <path
-                  d="M3.2002 14.6L12.8002 5"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M12.8002 10.6V5H7.2002"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <Icon icon={"toparrow"} />
             </button>
           </div>
         </div>
@@ -73,31 +52,9 @@ const Hero = () => {
               For this project, we ensured a precise & safe excavation in a
               built-up area. Thanks to our efficient ...
             </p>
-            <button className="group lg:px-5 md:py-2 md:px-4 rounded-md bg-orange hover:text-orange hover:bg-white transition-all duration-300 mt-6 text-[18px] font-semibold text-white flex gap-2 items-center cursor-pointer">
+            <button className="group lg:px-5 md:py-2 md:px-4 rounded-md bg-orange hover:text-orange leading-[150%] hover:bg-white transition-all duration-300 mt-6 text-[18px] font-semibold text-white flex gap-2 items-center cursor-pointer">
               Explore
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="transition-all duration-300"
-              >
-                <path
-                  d="M3.2002 14.6L12.8002 5"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M12.8002 10.6V5H7.2002"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <Icon icon={"toparrow"} />
             </button>
           </div>
         </div>
