@@ -8,17 +8,17 @@ const About = () => {
           <div className="max-w-135 ">
             <div className="flex flex-row gap-4 items-center">
               <div className="w-7.5 border-2 h-0  border-black"></div>
-              <h2 className="font-bold text-[32px] text-dark-black leading-[135%]">
+              <h2 className="font-bold md:text-[32px] text-2xl text-dark-black leading-[135%]">
                 About Us
               </h2>
             </div>
-            <h1 className="font-bold text-[40px] text-white mt-6 leading-[120%]">
+            <h1 className="font-bold lg:text-[40px] md:text-4xl sm:text-3xl text-2xl text-white mt-6 leading-[120%]">
               Over 10 Years of Experience in Earthworks
             </h1>
           </div>
 
           <img
-            className="w-111.25  h-79 mt-6.75 object-center object-cover"
+            className="w-111.25  h-79 md:mt-6.75 object-center object-cover"
             src="/assets/image/webp/about1.webp"
             alt=""
           />
@@ -26,7 +26,7 @@ const About = () => {
 
         <div className=" flex flex-col max-lg:mt-10">
           <div className="max-w-135">
-            <p className="text-white font-medium text-[18px] leading-[145%]">
+            <p className="text-white font-medium md:text-[18px] text-[16px] leading-[145%]">
               Grondwerken Pieters is a family-owned business, passionately run
               by the Pieters family. We strive to deliver the best results for
               our clients, with a strong focus on quality and a personal

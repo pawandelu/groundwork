@@ -93,12 +93,12 @@ const Cards = () => {
                     <div className=' absolute -top-4.25 left-4 md:left-0'>
                         <Icon icon={"card"} />
                     </div>
-                    <div className='lg:max-w-177.5 w-full border-y-[5px] border-orange py-8 md:py-13.5 pr-0 md:pr-8.75 '>
+                    <div className='lg:max-w-177.5 w-full border-y-[5px] border-orange py-8 md:pt-13.5  pr-0 md:pr-8.75 '>
                         <p className='w-full font-normal text-lg sm:text-xl lg:text-2xl leading-[170%] lg:leading-[183.33%] text-black'>
                             {CARD_DATA[active].desc}
                         </p>
                     </div>
-                    <div className='md:max-w-108 w-full md:h-74.5'>
+                    <div className='md:max-w-108 w-full md:h-72'>
                         <img src={CARD_DATA[active].bottomImage} alt="bottom-img" className='w-full h-auto object-contain object-center' />
                     </div>
                 </div>

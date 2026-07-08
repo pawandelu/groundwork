@@ -71,14 +71,14 @@ const Icon = ({ icon, className, pathName }) => {
         <path
           className={pathName}
           d="M3.2002 14.6L12.8002 5"
-          stroke="white"
+          stroke="currentColor"
           stroke-width="1.5"
           stroke-linecap="round"
           stroke-linejoin="round"
         />
         <path
           d="M12.8002 10.6V5H7.2002"
-          stroke="white"
+          stroke="currentColor"
           stroke-width="1.5"
           stroke-linecap="round"
           stroke-linejoin="round"

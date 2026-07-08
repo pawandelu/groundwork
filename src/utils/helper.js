@@ -68,7 +68,7 @@ export const CARD_DATA = [
     shortDesc: "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites.",
     desc: "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites. With our modern machinery & experienced professionals, we ensure smooth execution of every earthwork project.",
     image: "/assets/image/webp/earthworks.webp",
-    bottomImage: "/assets/image/webp/earthworks-2.webp",
+    bottomImage: "/assets/image/webp/bottom.webp",
   },
   {
     id: 2,
