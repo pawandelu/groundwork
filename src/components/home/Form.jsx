@@ -1,9 +1,41 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Heading from '../common/Heading'
 import Icon from '../common/Icon'
 
 
 const Form = () => {
+
+  const [formData, setFormData] = useState({ name: "", phone: "", email: "", message: "", });
+
+  const [submitted, setSubmitted] = useState(false);
+
+  const handChange = (e) => {
+
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handSubmit = (e) => {
+
+    e.preventDefault();
+
+    console.log(formData);
+
+    setSubmitted(true);
+
+    setFormData({
+      name: "",
+      phone: "",
+      email: "",
+      message: "",
+    });
+
+    setTimeout(() => {
+      setSubmitted(false);
+    }, 3000);
+  };
   return (
     <section className="bg-[url('/assets/image/webp/from-bg.webp')] lg:min-h-264.5 bg-cover bg-center lg:pt-25 md:pt-20 sm:pt-15 pt-10 lg:pb-31.5 md:pb-25 sm:pb-18 pb-10 ">
       <div className='max-w-293 w-full mx-auto flex flex-col items-center justify-center px-4'>
@@ -50,43 +82,68 @@ const Form = () => {
           <p className='font-normal sm:text-[18px] text-[16px] leading-[144.44%] text-white sm:mt-4 mt-2'>Complete control over products allow us to our customers the best quality<br></br>
             prices and services. We take great pride in everything that we do in Jhontraktor</p>
 
-          <form className="mt-6">
+          <form className="mt-6" onSubmit={handSubmit}>
 
             <div className="grid md:grid-cols-2 gap-4">
               <input
                 type="text"
+                name='name'
                 placeholder="Name"
-                className="rounded bg-white p-4 font-medium  sm:text-[18px] text-[16px] leading-[144.44%] outline-none"
+                value={formData.name}
+                onChange={handChange}
+                required
+                className="rounded bg-white p-4 font-medium  sm:text-[18px] text-[16px] leading-[144.44%] placeholder:text-dark-black outline-none"
               />
 
               <input
                 type="text"
+                name='phone'
                 placeholder="Phone"
-                className="rounded bg-white p-4 font-medium sm:text-[18px] text-[16px] leading-[144.44%] outline-none"
+                value={formData.phone}
+                onChange={handChange}
+                required
+                className="rounded bg-white p-4 font-medium sm:text-[18px] text-[16px] leading-[144.44%] placeholder:text-dark-black outline-none"
               />
             </div>
 
             <input
               type="email"
+              name='email'
               placeholder="Email Address"
-              className="w-full rounded bg-white p-4 font-medium sm:text-[18px] text-[16px] leading-[144.44%] outline-none mt-4"
+              value={formData.email}
+              onChange={handChange}
+              required
+              className="w-full rounded bg-white p-4 font-medium sm:text-[18px] text-[16px] leading-[144.44%] placeholder:text-dark-black outline-none mt-4"
             />
 
             <textarea
               rows="5.5"
+              name='message'
               placeholder="Message"
-              className="w-full h-38 rounded bg-white p-4 font-medium sm:text-[18px] text-[16px] leading-[144.44%] outline-none resize-none mt-4"
+              value={formData.message}
+              onChange={handChange}
+              required
+              className="w-full h-38 rounded bg-white p-4 font-medium sm:text-[18px] text-[16px] leading-[144.44%] placeholder:text-dark-black outline-none resize-none mt-4"
             ></textarea>
 
-            <button
-              type="submit"
-              className="bg-black text-white sm:px-6 sm:py-4 px-3 py-2 rounded-md flex items-center font-semibold sm:text-[18px] text-[14px] leading-[100%] sm:gap-4 gap-2 mt-6 hover:bg-white transition-all duration-500 cursor-pointer"
-            >
-              Send Message
-              
-              <Icon icon={"arrowright"} />
-            </button>
+            <div className='mt-6 flex items-center gap-5 flex-wrap'>
+              <button
+                type="submit"
+                className="bg-black text-white sm:px-6 sm:py-4 px-3 py-2 rounded-md flex items-center font-semibold sm:text-[18px] text-[14px] leading-[100%] sm:gap-4 gap-2  hover:bg-white transition-all duration-500 cursor-pointer"
+              >
+                Send Message
 
+                <Icon icon={"arrowright"} />
+              </button>
+
+              {submitted && (
+                <p className="text-white font-semibold text-[16px] flex items-center gap-3">
+
+                  <Icon icon={"checkcircle2"} />
+                  Form Successfully Submitted!
+                </p>
+              )}
+            </div>
           </form>
         </div>
       </div>
