@@ -5,3 +5,6 @@
 
   }
 
+.links:hover {
+      -webkit-text-stroke: 1px orange;
+}
