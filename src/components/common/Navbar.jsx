@@ -27,7 +27,7 @@ const Navbar = () => {
             {NAVBAR_LIST.map((item, index) => (
               <Link to={item.link} key={index} onClick={() => setNav(false)}>
                 <li
-                  className={`font-normal links text-[16px] leading-[119%] text-white hover:text-orange hover:font-semibold transition-all duration-500 ${item.link === path && "active"}`}
+                  className={`links font-normal links text-[16px] leading-[119%] text-white transition-all duration-500 ${item.link === path && "active"}`}
                 >
                   {item.title}
                 </li>
