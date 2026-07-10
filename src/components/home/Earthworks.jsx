@@ -5,7 +5,8 @@ const Earthworks = () => {
   return (
     <section className="px-4 lg:pt-37 sm:pb-20 md:pt-25 sm:pt-20 py-10">
       <div className="max-w-285 mx-auto">
-        <div className="lg:flex max-lg:hidden flex-row w-full">
+
+        <div className="lg:flex max-lg:hidden flex-row w-full max-xl:gap-3.5">
           <div className="lg:bg-[url('/assets/image/webp/earthworking.webp')] overflow-hidden lg:[clip-path:polygon(0_0,100%_0,75%_100%,0_100%)] bg-no-repeat bg-center bg-cover w-full max-w-[635.1px] min-h-[627.1px]">
             <div className="bg-white/80 pl-12.5 hover:bg-black/50 flex items-end duration-300 pb-12.5 group w-full h-full">
               <div className="max-w-97.5 group-hover:opacity-100 opacity-0  z-20 pt-94 ">
