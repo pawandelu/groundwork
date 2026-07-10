@@ -28,7 +28,7 @@ const Cards = () => {
           <Heading heading={"Our Services"} vari={"Primary"} />
         </div>
 
-        <h1 className="font-bold text-[40px] leading-[100%] text-dark-black mt-6 mb-6 md:mb-8 lg:mb-10">
+        <h1 className="font-bold text-[26px] sm:text-[28px] md:text-[32px] lg:text-[40px] leading-[100%] text-dark-black mt-6 mb-6 md:mb-8 lg:mb-10">
           From Excavations to General Earthworks
         </h1>
 

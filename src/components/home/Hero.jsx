@@ -24,7 +24,7 @@ const Hero = () => {
           alt=""
         />
         {/* img  */}
-        <div className="group rounded-md lg:pt-50.75  pt-31 absolute bg-[url('/assets/image/webp/hero-1.webp')] p-8 bg-cover bg-center lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 top-49 w-50 sm:h-80 h-70 max-sm:hidden">
+        <div className="group rounded-md lg:pt-50.75  pt-31 absolute bg-[url('/assets/image/webp/hero-1.webp')] p-8 bg-cover bg-center lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 top-49 w-50 sm:h-80 h-70 max-sm:hidden cursor-pointer">
           <div className="opacity-0 translate-y-5 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
             <Heading
               heading={"Excavation for Residential Home"}
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
 
         {/* img2 */}
-        <div className="group rounded-md lg:pt-50.75  pt-31 bg-[url('/assets/image/webp/hero-2.webp')] p-8 bg-cover bg-center absolute lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 lg:top-62 md:top-65 sm:top-70 w-50 sm:h-80 h-70 lg:left-[388.67px] md:left-85 sm:left-70 max-sm:hidden ">
+        <div className="group rounded-md lg:pt-50.75  pt-31 bg-[url('/assets/image/webp/hero-2.webp')] p-8 bg-cover bg-center absolute lg:w-85 md:w-70 lg:h-110 md:h-90 sm:w-60 lg:top-62 md:top-65 sm:top-70 w-50 sm:h-80 h-70 lg:left-[388.67px] md:left-85 sm:left-70 max-sm:hidden cursor-pointer">
           <div className="opacity-0 translate-y-5 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
             <Heading
               heading={"Excavation for Residential Home"}
