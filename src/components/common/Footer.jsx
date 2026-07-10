@@ -7,14 +7,15 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <section className="pt-11.5 bg-dark-black flex flex-col justify-center">
-      <div className="max-w-285 w-full mx-auto flex sm:flex-row flex-col min-[900px]:items-center justify-between">
+      <div className="max-w-285 w-full mx-auto flex min-[900px]:flex-row flex-col min-[900px]:items-center justify-between max-xl:px-3">
         <div className="max-w-91.75 w-full flex flex-col">
+         <a href="#">
           <img
             src="/assets/image/webp/logo-black.webp"
-            className="w-[187.87px] h-10"
+            className="w-[187.87px] h-10 cursor-pointer"
             alt="logo"
           />
-
+          </a>
           <p className="font-normal text-[16px] leading-[162.5%] text-white mt-6">
             Grondwerken Pieters – Your reliable partner for all your earthworks
             and infrastructure projects.
@@ -26,7 +27,7 @@ const Footer = () => {
               target="_blank"
               className=" hover:scale-120 transition-transform duration-300"
             >
-              <Icon icon={"facebook"} />
+             <Icon icon={"facebook"} />
             </a>
             <a
               href="https://x.com/"
@@ -52,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex min-[900px]:flex-row flex-col md:gap-20 sm:gap-10 gap-8 max-sm:mt-5">
+        <div className="flex min-[500px]:flex-row flex-col  md:gap-20 sm:gap-10 gap-8 max-[900px]:mt-5">
           <div className="flex flex-col gap-4">
             <h2 className="font-bold text-2xl leading-[100%] text-orange">
               Quick Links

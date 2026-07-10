@@ -146,10 +146,13 @@ const Form = () => {
             <div className="mt-6 flex items-center gap-5 flex-wrap">
               <button
                 type="submit"
-                className="bg-black text-white group hover:bg-white hover:text-black sm:px-6 sm:py-4 px-3 py-2 rounded-md flex items-center font-semibold sm:text-[18px] text-[14px] leading-[100%] sm:gap-4 gap-2 transition-all duration-500 cursor-pointer"
+                className="bg-black text-white group hover:bg-white hover:text-black sm:px-6 sm:py-4 px-3 py-2 rounded-md flex items-center font-semibold sm:text-[18px] text-[14px] leading-[122%] sm:gap-4 gap-2 transition-all duration-500 cursor-pointer"
               >
                 Send Message
-                <Icon icon={"arrowright"} className={"group-hover:text-current"} />
+                <Icon
+                  icon={"arrowright"}
+                  className={"group-hover:text-current"}
+                />
               </button>
 
               {submitted && (

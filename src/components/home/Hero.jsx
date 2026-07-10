@@ -4,7 +4,7 @@ import Icon from "../common/Icon";
 
 const Hero = () => {
   return (
-    <section className="bg-white min-h-13 lg:pt-19.75 md:pt-15 sm:pt-12 pt-5 px-4 w-full md:h-132 sm:h-109 bg-[url('/assets/image/webp/hero-bg.webp')] bg-no-repeat bg-right bg-contain">
+    <section className="bg-white min-h-13 lg:pt-19.75 md:pt-15 sm:pt-12 pt-5 px-4 w-full md:h-132 sm:h-109 bg-[url('/assets/image/webp/hero-bg.webp')] bg-no-repeat bg-right bg-contain lg:mt-25 md:mt-20 sm:mt-15 mt-10 ">
       <div className="max-w-285 mx-auto flex sm:flex-row flex-col max-sm:items-center justify-between relative">
         <div className="max-w-184.25 ">
           <div className="flex flex-row items-center gap-4">

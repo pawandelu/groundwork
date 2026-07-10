@@ -5,7 +5,7 @@ const About = () => {
     <section className="bg-orange relative  h-auto lg:pt-24.75 md:pt-20 sm:pt-18 pt-10  w-full  bg-[url('/assets/image/png/about-bg.png')] bg-no-repeat bg-left bg-contain">
       <div className="max-w-291 mx-auto px-4 flex lg:flex-row justify-between max-lg:items-center flex-col">
         <div>
-          <div className="max-w-135 ">
+          <div className="max-w-125 ">
             <div className="flex flex-row gap-4 items-center">
               <div className="w-7.5 border-2 h-0  border-black"></div>
               <h2 className="font-bold md:text-[32px] text-2xl text-dark-black leading-[135%]">

@@ -160,7 +160,7 @@ export const CLIENTS = [
     name: "Tom DeLonge",
     role: "CEO, Lexmark",
     review:
-      "The quality of their work is excellent. Their team completed the project on time and exceeded our expectations. Highly recommended for any construction work.",
+      "I am very satisfied with the services. Their team is very professional and efficient in completing our project on time and at a very affordable cost. The quality of their work is very good and I highly recommend this company for any construction project.",
   },
   {
     image: "/assets/image/webp/blackman.webp",
