@@ -23,7 +23,7 @@ const Gallery = () => {
           <Heading heading={"Our Gallery"} vari={"Primary"} />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[290px_496px_290px] md:gap-8 sm:gap-4 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[290px_minmax(0,1fr)_290px] md:gap-8 sm:gap-4 gap-2">
           {galleryImages.map((item, index) => (
             <div key={index} className={item.wrapperClass}>
               <img

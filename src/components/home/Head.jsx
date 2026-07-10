@@ -4,10 +4,10 @@ import Icon from "../common/Icon";
 
 const Head = () => {
   return (
-    <section className="bg-[url('/assets/image/webp/head-bg.webp')] lg:min-h-187.5 md:h-170 h-120 bg-cover bg-center ">
+    <section className="bg-[url('/assets/image/webp/head-bg.webp')] xl:h-187.5 lg:170 md:h-150 h-120 bg-cover bg-center ">
       <Navbar />
       <div className="max-w-293 mx-auto px-4">
-        <div className="max-w-151.75  lg:mt-55.5 md:mt-50 sm:mt-45  mt-30">
+        <div className="max-w-151.75  xl:mt-55.5 lg:mt-50 md:mt-50 sm:mt-45  mt-30">
           <h1 className="font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-[90%]">
             Grondwerken Pieters
           </h1>

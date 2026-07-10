@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
         </div>
         <img
-          className="lg:w-[301.84px] lg:h-112.25 md:w-70 max-lg:mt-17 md:h-100 sm:w-50 max-md:mt-17.25 sm:h-80 max-sm:mt-6 w-49 h-70"
+          className="xl:w-[301.84px] lg:w-65 xl:h-112.25 lg:100 max-xl:mt-12.25 md:w-70 max-lg:mt-17 md:h-100 sm:w-50 max-md:mt-17.25 sm:h-80 max-sm:mt-6 w-49 h-70"
           src="/assets/image/webp/success.webp"
           alt=""
         />

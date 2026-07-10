@@ -53,13 +53,13 @@ const Navbar = () => {
             className="lg:hidden relative w-6 h-6 z-500 cursor-pointer"
           >
             <span
-              className={` absolute left-0 w-6 h-1 bg-black rounded transition-all duration-300 ${nav ? "rotate-45 top-2.5" : "top-0"}`}
+              className={` absolute left-0 w-6 h-1 bg-orange rounded transition-all duration-300 ${nav ? "rotate-45 top-2.5" : "top-0"}`}
             ></span>
             <span
-              className={` absolute left-0 w-6 h-1 bg-black rounded transition-all duration-300 ${nav ? "opacity-0" : "top-2.5"}`}
+              className={` absolute left-0 w-6 h-1 bg-orange rounded transition-all duration-300 ${nav ? "opacity-0" : "top-2.5"}`}
             ></span>
             <span
-              className={` absolute left-0 w-6 h-1 bg-black rounded transition-all duration-300 ${nav ? "-rotate-45 top-2.5" : "top-5"}`}
+              className={` absolute left-0 w-6 h-1 bg-orange rounded transition-all duration-300 ${nav ? "-rotate-45 top-2.5" : "top-5"}`}
             ></span>
           </button>
         </div>
