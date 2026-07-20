@@ -5,19 +5,19 @@ export const NAVBAR_LIST = [
   },
   {
     link: "#",
-    title: "Programs",
+    title: "Groundwork",
   },
   {
     link: "#",
-    title: "Why Pupilo?",
+    title: "Transport",
   },
   {
     link: "#",
-    title: "Learn with Pupilo",
+    title: "About",
   },
   {
     link: "#",
-    title: "Blog",
+    title: "Contact",
   },
 ];
 
@@ -61,11 +61,11 @@ export const galleryImages = [
 ];
 
 export const CARD_DATA = [
-
   {
     id: 1,
     title: "Earthworks",
-    shortDesc: "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites.",
+    shortDesc:
+      "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites.",
     desc: "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites. With our modern machinery & experienced professionals, we ensure smooth execution of every earthwork project.",
     image: "/assets/image/webp/earthworks.webp",
     bottomImage: "/assets/image/webp/bottom.webp",
@@ -73,7 +73,8 @@ export const CARD_DATA = [
   {
     id: 2,
     title: "Demolition",
-    shortDesc: "Safe and efficient demolition services for residential, commercial, and industrial projects with modern equipment.",
+    shortDesc:
+      "Safe and efficient demolition services for residential, commercial, and industrial projects with modern equipment.",
     desc: "We provide safe and professional demolition services for residential, commercial, and industrial projects. Using advanced proven techniques, our experienced team ensures controlled structure removal with minimal disruption.",
     image: "/assets/image/webp/demolition.webp",
     bottomImage: "/assets/image/webp/demolition.webp",
@@ -81,7 +82,8 @@ export const CARD_DATA = [
   {
     id: 3,
     title: "Drainage",
-    shortDesc: "We provide reliable drainage solutions, ensuring proper water flow, efficient pipe installation site performance.",
+    shortDesc:
+      "We provide reliable drainage solutions, ensuring proper water flow, efficient pipe installation site performance.",
     desc: "We offer complete drainage solutions for residential, commercial, and industrial projects. Our experienced team specializes in drainage system installation, pipe laying, and water management long-term reliability.",
     image: "/assets/image/webp/drainage.webp",
     bottomImage: "/assets/image/webp/drainage.webp",
@@ -89,7 +91,8 @@ export const CARD_DATA = [
   {
     id: 4,
     title: "Waste Removal",
-    shortDesc: "We provide fast and reliable waste removal services, ensuring clean, safe, and well-maintained construction sites.",
+    shortDesc:
+      "We provide fast and reliable waste removal services, ensuring clean, safe, and well-maintained construction sites.",
     desc: "Our waste removal services help keep construction sites clean, organized, and safe throughout every stage of the project. We efficiently collect, transport and environmentally responsible practices.",
     image: "/assets/image/webp/waste-removal.webp",
     bottomImage: "/assets/image/webp/waste-removal.webp",
@@ -97,7 +100,8 @@ export const CARD_DATA = [
   {
     id: 5,
     title: "Equipment",
-    shortDesc: "We supply modern heavy equipment for construction projects and precision on every job site.",
+    shortDesc:
+      "We supply modern heavy equipment for construction projects and precision on every job site.",
     desc: "We provide a wide range of heavy equipment to commercial, and industrial construction projects. Our modern machinery is regularly maintained to ensure maximum performance, and reliability on every job site.",
     image: "/assets/image/webp/heavy-equipment.webp",
     bottomImage: "/assets/image/webp/heavy-equipment.webp",
@@ -105,7 +109,8 @@ export const CARD_DATA = [
   {
     id: 1,
     title: "Earthworks",
-    shortDesc: "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites.",
+    shortDesc:
+      "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites.",
     desc: "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites. With our modern machinery & experienced professionals, we ensure smooth execution of every earthwork project.",
     image: "/assets/image/webp/earthworks.webp",
     bottomImage: "/assets/image/webp/earthworks-2.webp",
@@ -113,7 +118,8 @@ export const CARD_DATA = [
   {
     id: 2,
     title: "Demolition",
-    shortDesc: "Safe and efficient demolition services for residential, commercial, and industrial projects with modern equipment.",
+    shortDesc:
+      "Safe and efficient demolition services for residential, commercial, and industrial projects with modern equipment.",
     desc: "We provide safe and professional demolition services for residential, commercial, and industrial projects. Using advanced proven techniques, our experienced team ensures controlled structure removal with minimal disruption.",
     image: "/assets/image/webp/demolition.webp",
     bottomImage: "/assets/image/webp/demolition.webp",
@@ -121,7 +127,8 @@ export const CARD_DATA = [
   {
     id: 3,
     title: "Drainage",
-    shortDesc: "We provide reliable drainage solutions, ensuring proper water flow, efficient pipe installation site performance.",
+    shortDesc:
+      "We provide reliable drainage solutions, ensuring proper water flow, efficient pipe installation site performance.",
     desc: "We offer complete drainage solutions for residential, commercial, and industrial projects. Our experienced team specializes in drainage system installation, pipe laying, and water management long-term reliability.",
     image: "/assets/image/webp/drainage.webp",
     bottomImage: "/assets/image/webp/drainage.webp",
@@ -129,7 +136,8 @@ export const CARD_DATA = [
   {
     id: 4,
     title: "Waste Removal",
-    shortDesc: "We provide fast and reliable waste removal services, ensuring clean, safe, and well-maintained construction sites.",
+    shortDesc:
+      "We provide fast and reliable waste removal services, ensuring clean, safe, and well-maintained construction sites.",
     desc: "Our waste removal services help keep construction sites clean, organized, and safe throughout every stage of the project. We efficiently collect, transport and environmentally responsible practices.",
     image: "/assets/image/webp/waste-removal.webp",
     bottomImage: "/assets/image/webp/waste-removal.webp",
@@ -137,17 +145,15 @@ export const CARD_DATA = [
   {
     id: 5,
     title: "Heavy Equipment",
-    shortDesc: "We supply modern heavy equipment for construction projects and precision on every job site.",
+    shortDesc:
+      "We supply modern heavy equipment for construction projects and precision on every job site.",
     desc: "We provide a wide range of heavy equipment to commercial, and industrial construction projects. Our modern machinery is regularly maintained to ensure maximum performance, and reliability on every job site.",
     image: "/assets/image/webp/heavy-equipment.webp",
     bottomImage: "/assets/image/webp/heavy-equipment.webp",
   },
-
 ];
 
-
 export const CLIENTS = [
-
   {
     image: "/assets/image/webp/indian.webp",
     name: "John Doe",
@@ -169,12 +175,9 @@ export const CLIENTS = [
     review:
       "Very professional company with skilled workers. Everything was completed smoothly and the final result was outstanding.",
   },
-
 ];
 
-
 export const QUICK_LINKS = [
-
   {
     title: "Home",
     link: "#",
@@ -195,6 +198,4 @@ export const QUICK_LINKS = [
     title: "Contact",
     link: "#",
   },
-
 ];
-
